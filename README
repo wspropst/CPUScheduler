@@ -1,0 +1,42 @@
+# Assignment 4: CPU SCHEDULER
+## Introduction
+Ori Garibi | Liam Propst
+
+2367830 | 002346086
+
+garibi@chapman.edu | wpropst@chapman.edu
+
+CPSC 380-01
+Assignment 4
+
+Source Files:
+* CPU.c
+* dirver.c 
+* list.c
+* Makefile
+* schedule_fcfs.c
+* schedule_priority.c
+* schedule_sjf.c
+* schedule_rr.c
+* schedule_priority_rr.c
+
+
+## Running the program
+
+* Compile the program `make clean` and then `make {option}` where option is one of the following
+    * rr
+    * fcfs
+    * priority
+    * sjf
+    * priority_rr
+* Run the program `./{option} {filename}`
+* Can change the given list of processes in the filename you want to run
+* Example run from directorty:
+    `make clean` , `make priority_rr` , `./priority_rr book.txt`
+
+## Citations
+
+* `Assignment 2` template and pdf on canvas
+* Information on `CPU Scheduling` : [Canvas](https://canvas.chapman.edu/courses/44381/files/3963472?module_item_id=1475003)
+* `malloc` man oages
+* Clarification on RR scheduling : [GeeksforGeeks](https://www.geeksforgeeks.org/program-round-robin-scheduling-set-1/)
